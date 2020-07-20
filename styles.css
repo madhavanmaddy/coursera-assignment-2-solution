@@ -1,0 +1,125 @@
+h1{
+	text-align: center;
+}
+*{
+	box-sizing: border-box;
+}
+@media(min-width: 992px){
+	section > div{
+	border: 1px solid black;
+	position: relative;
+	width: 30%;
+	left:70%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 90%;
+
+}
+#C{
+	background-color: #DC7633;	
+}
+#B{
+	background-color: #BA4A00;
+	color: white;
+}
+#S{
+	background-color: #D4AC0D;
+}
+section{
+	width:30%;
+	background-color: gray;
+	border: 2px solid black;
+	float: left;
+	margin: 15px;
+}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	section > div{
+	border: 1px solid black;
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+	font-size: 90%;
+
+}
+#C{
+	background-color: #DC7633;	
+	width: 30%;
+	left:70%;
+}
+#B{
+	background-color: #BA4A00;
+	color: white;
+	width: 30%;
+	left:70%;
+}
+#S{
+	background-color: #D4AC0D;
+	width: 15%;
+	left:85%;
+}
+section{
+	background-color: gray;
+	border: 2px solid black;
+
+}
+#p1{
+	width: 47.5%;
+	float: left;
+	margin-bottom: 4.75%;
+	/*margin-right: 0.625%;*/
+}
+#p2{
+	width: 47.5%;
+	float: right;
+	margin-bottom: 4.75%;
+	/*margin-left: 0.625%;*/
+}
+#p3{
+	width:100%;
+	clear: both;
+}
+}
+@media(max-width: 767px ){
+	section > div{
+	border: 1px solid black;
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+	width: 15%;
+	left: 85%;
+	margin-bottom: 10px;
+	font-size: 70%;
+
+}
+#C{
+	background-color: #DC7633;	
+}
+#B{
+	background-color: #BA4A00;
+	color: white;
+}
+#S{
+	background-color: #D4AC0D;
+}
+section{
+	background-color: gray;
+	border: 2px solid black;
+	width:100%;
+	margin-bottom: 10px;
+
+}
+/*#p1{
+	float: left;
+	margin-bottom: 20px;
+}
+#p2{
+	width: 47.5%;
+	float: right;
+	margin-bottom: 20px;
+}
+#p3{
+	width:100%;
+	clear: both;
+}*/
+}
